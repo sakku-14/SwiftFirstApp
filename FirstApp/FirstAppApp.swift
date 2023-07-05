@@ -12,6 +12,12 @@ struct FirstAppApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+            ContentView()
+            ContentView()
+        }
+        WindowGroup {
+            ContentView()
+            ContentView()
         }
     }
 }
